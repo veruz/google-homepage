@@ -1,4 +1,2 @@
-[CDATA[
-# ${1:Project Name}
+Google Homepage
 Simple mockup of Google Homepage and Search Results
-]]>
