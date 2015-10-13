@@ -1,20 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
 		<title>Google</title>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 		<link rel="icon" type="image/png" href="https://www.google.gr/images/branding/product/ico/googleg_lodp.ico" />
 	</head>
 	<body>
 		<div id="logo">
-			<img src="https://www.google.gr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google_Logo"/>
+			<img src="https://www.google.gr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google_Logo" onload="this.width/=2;this.onload=null;"/>
+			<div style="position:relative;color:#4285f4;font:16px/16px roboto-regular, arial, sans-serif;left:215px;top:-17px" nowrap="">Greece</div>
 		</div>
 		<div id="searchbar">
 			<form>
-				<input type="text"><br />
-				<input type="submit" value="Google Search">
-				<input type="submit" value="I'm feeling lucky">
+				<span id="voicebutton" />
+				<input id="searchfield" type="text"><br />
+				<input class="buttons" type="submit" value="Google Search">
+				<input class="buttons" type="submit" value="I'm Feeling Lucky">
 			</form>
+		</div>
+		<div id="gb">
+			<div>
+				<p class="Gt">User</p>
+				<a class="Gt" href="https://mail.google.com/">Gmail</a>
+				<a class="Gt" href="https://www.google.gr/">Images</a>
+				<img class="Gt" src="icons/options.png" alt="options" />
+				<img class="Gt" src="icons/notifications.png" alt="Google Notifications" />
+				<img class="Gt" src="icons/profile.jpg" alt="Google Account" style="width: 32px" />
+			</div>
+
+		</div>
+		<div class="fbar">
+			<div id="fsl">
+				<a class="Gs" href="https://www.google.gr/intl/en/ads/?fg=1">Advertising</a>
+				<a class="Gs" href="https://www.google.gr/services/?fg=1">Business</a>
+				<a class="Gs" href="https://www.google.gr/intl/en/about.html?fg=1">About</a>
+			</div>
+			<div id="fsr">
+				<a class="Gs" href="https://www.google.gr/intl/en/policies/privacy/?fg=1">Privacy</a>
+				<a class="Gs" href="https://www.google.gr/intl/en/policies/terms/?fg=1">Terms</a>
+				<a class="Gs" href="https://www.google.gr/preferences?hl=en">Settings</a>
+				<a class="Gs" href="https://www.google.com/">Use Google.com</a>
+			</div>
 		</div>
 	</body>
 </html>
